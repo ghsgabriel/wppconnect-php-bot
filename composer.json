@@ -1,0 +1,28 @@
+{
+  "name": "ghsgabriel/wppconnect-php-bot",
+  "description": "A Wppconnect multi-numbers bot server",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Gabriel",
+      "email": "ghs.gabriel@outlook.com"
+    },
+    {
+      "name": "Renan",
+      "email": "renan_leck@outlook.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "mongodb/mongodb": "^1.8",
+    "vlucas/phpdotenv": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bot\\": "src/",
+      "Bot\\Session\\": "src/session"
+    }
+  }
+}
